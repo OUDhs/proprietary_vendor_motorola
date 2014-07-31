@@ -20,3 +20,8 @@ DEVICE_PACKAGE_OVERLAYS += vendor/motorola/falcon/overlay
 $(call inherit-product, vendor/motorola/falcon/falcon-vendor-blobs.mk)
 $(call inherit-product, vendor/motorola/msm8226-common/msm8226-common-vendor.mk)
 
+# Prebuilt jars
+PRODUCT_PACKAGES += \
+    imslibrary \
+    qcnvitems \
+    qcrilhook
