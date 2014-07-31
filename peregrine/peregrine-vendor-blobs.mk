@@ -17,6 +17,7 @@
 PRODUCT_COPY_FILES += \
     vendor/motorola/peregrine/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/peregrine/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
+    vendor/motorola/peregrine/proprietary/lib/libreference-ril.so:system/lib/libreference-ril.so \
     vendor/motorola/peregrine/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/peregrine/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/peregrine/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
