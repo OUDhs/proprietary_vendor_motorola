@@ -20,4 +20,5 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/falcon/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/falcon/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/motorola/falcon/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
-    vendor/motorola/falcon/proprietary/lib/libril.so:system/lib/libril.so 
+    vendor/motorola/falcon/proprietary/lib/libril.so:system/lib/libril.so  \
+    vendor/motorola/falcon/proprietary/lib/hw/sensors.msm8226.so:system/lib/hw/sensors.msm8226.so
